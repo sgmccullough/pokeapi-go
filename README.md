@@ -8,6 +8,8 @@
 
 Wrapper for [Poke API](https://pokeapi.co), written in Go. *Supports PokeAPI v2.*
 
+This is a fork of mtslzr's [pokeapi-go](https://github.com/mtslzr/pokeapi-go) which implementes a few bug fixes.
+
 - [pokeapi-go](#pokeapi-go)
   - [Documentation](#Documentation)
   - [Getting Started](#Getting-Started)
