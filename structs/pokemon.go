@@ -237,8 +237,22 @@ type Pokemon struct {
 			} `json:"version_group"`
 		} `json:"version_group_details"`
 	} `json:"moves"`
-	Name    string `json:"name"`
-	Order   int    `json:"order"`
+	Name      string `json:"name"`
+	Order     int    `json:"order"`
+	PastTypes []struct {
+		Generation struct {
+			Name string `json:"name"`
+			URL  string `json:"url"`
+		}
+		Slot  int `json:"slot"`
+		Types []struct {
+			Slot int `json:"slot"`
+			Type struct {
+				Name string `json:"name"`
+				URL  string `json:"url"`
+			} `json:"type"`
+		} `json:"types"`
+	} `json:"past_types"`
 	Species struct {
 		Name string `json:"name"`
 		URL  string `json:"url"`
