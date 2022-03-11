@@ -1,4 +1,4 @@
-module github.com/voidshard/pokeapi-go
+module github.com/sgmccullough/pokeapi-go
 
 go 1.12
 

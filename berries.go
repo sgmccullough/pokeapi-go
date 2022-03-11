@@ -3,7 +3,7 @@ package pokeapi
 import (
 	"fmt"
 
-	"github.com/voidshard/pokeapi-go/structs"
+	"github.com/sgmccullough/pokeapi-go/structs"
 )
 
 // Berry returns a single berry (by name or ID).

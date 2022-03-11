@@ -1,10 +1,10 @@
 # pokeapi-go
-![Actions](https://github.com/voidshard/pokeapi-go/workflows/Actions/badge.svg)
-![Release](https://img.shields.io/github/v/release/voidshard/pokeapi-go)
-[![Codecov](https://img.shields.io/codecov/c/github/voidshard/pokeapi-go.svg?style=flat)](https://codecov.io/gh/voidshard/pokeapi-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/voidshard/pokeapi-go?style=flat)](https://goreportcard.com/report/github.com/voidshard/pokeapi-go)
-[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat)](http://godoc.org/github.com/voidshard/pokeapi-go)
-[![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](https://raw.githubusercontent.com/voidshard/pokeapi-go/master/LICENSE)
+![Actions](https://github.com/sgmccullough/pokeapi-go/workflows/Actions/badge.svg)
+![Release](https://img.shields.io/github/v/release/sgmccullough/pokeapi-go)
+[![Codecov](https://img.shields.io/codecov/c/github/sgmccullough/pokeapi-go.svg?style=flat)](https://codecov.io/gh/sgmccullough/pokeapi-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sgmccullough/pokeapi-go?style=flat)](https://goreportcard.com/report/github.com/sgmccullough/pokeapi-go)
+[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat)](http://godoc.org/github.com/sgmccullough/pokeapi-go)
+[![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](https://raw.githubusercontent.com/sgmccullough/pokeapi-go/master/LICENSE)
 
 Wrapper for [Poke API](https://pokeapi.co), written in Go. *Supports PokeAPI v2.*
 
@@ -35,11 +35,11 @@ Full API documentation can be found at [Poke API](https://pokeapi.co/docs/v2.htm
 ## Getting Started
 
 ```bash
-go get github.com/voidshard/pokeapi-go
+go get github.com/sgmccullough/pokeapi-go
 ```
 
 ```go
-import "github.com/voidshard/pokeapi-go"
+import "github.com/sgmccullough/pokeapi-go"
 ```
 
 ## Endpoints
